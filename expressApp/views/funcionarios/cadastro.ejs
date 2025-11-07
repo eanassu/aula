@@ -2,5 +2,13 @@
 
 <h1>Cadastro</h1>
 
+<form action="/funcionarios/new" method="POST">
+    RE:<input type="text" name="re"/><br/>
+    Nome:<input type="text" name="nome"/><br/>
+    Data de Admissão:<input type="text" name="dataAdmissao"/><br/>
+    Salário:<input type="text" name="salario"/><br/>
+    <button type="submit">Enviar</button>
+</form>
+
 <a href="/funcionarios">voltar</a>
 <%- include('../partials/footer') %>
